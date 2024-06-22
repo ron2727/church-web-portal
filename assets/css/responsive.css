@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Montserrat&family=Anton&family=Raleway&family=Secular+One&family=Roboto&family=Lato&family=Poppins&display=swap');
+body{
+  background-color: #f2f2f2;
+}
+label,input, #btnSubmit{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  }
+/* validation style */
+input.invalid,
+textarea.invalid,
+select.invalid,
+.match_error,
+.match_error:focus {
+	border-color: red;
+  outline: red;
+}
+
+.validation_error {
+	margin: .4em 0 1em;
+	color: red;
+	font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+.profileImg2{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 765px) {
+    /* #navMenu {
+      display: flex;
+      justify-content: flex-end;
+    } */
+     #navMenu {
+      display: none;
+      justify-content: flex-end;
+      font-weight: bold;
+    } 
+    .offcanvas-backdrop{
+      display: none;
+    }
+    #postContainer{
+      width: 50%;
+     }
+     #mainContainer{
+      width: 60%;
+     }
+     #profileImg{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+     }
+     #cardProfile{
+      width: 40%;
+     }
+     #contactForm{
+      width: 50%;
+     }
+     #serviceForm{
+      width: 60%;
+     }
+     #eventImage{
+      height: 300px;
+    }
+    #serviceImage{
+      height: 300px;
+    }
+    #trackMainCon{
+      width: 80%;
+    }
+    #viewEventCon{
+      width: 60%;
+    }
+    .event-image{
+      height: 500px;
+    }
+    #pastorName{
+      font-size: 20px;
+    }
+    #pastorPos{
+      font-size: 18px;
+    }
+    .event-title, .event-place, .event-date, .event-time{
+      font-family: 'Anton', sans-serif;
+    }
+    .event-title{
+    font-size: 3rem;
+    }
+    .event-place{
+    font-size: 1.5rem;
+    }
+    .event-date{
+    font-size: 1.2rem;
+    }
+    #footerCon{
+      width: 70%;
+    }
+    .confirm-container{
+      width: 50%;
+    }
+    #forgotPassCon{
+      width: 40%;
+    }
+    #reqCon{
+      width: 40%;
+    }
+  }
+ 
+
+@media only screen and (max-width: 765px) {
+  #navMenu .navbar-nav{
+     padding-top: 10px;
+  }
+  .nav-title{
+    display: none;
+  }
+  .navbar-brand{
+    font-size: 15px;
+  }
+  
+    #footerText{
+        font-size: 0.7em;
+    }
+    #logo{
+      width: 100%;
+      color: black;
+    } 
+    #reaction{
+      width: 100%;
+      border-top: 1px solid #121212;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0px 10px 0px;
+    }
+   #postContainer{
+    width: 97%;
+   }
+   #maintContainer{
+    width: 97%;
+   }
+   #profileImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   }
+   #cardProfile{
+    width: 80%;
+   }
+   #contactForm{
+    width: 95%;
+   }
+   #serviceForm{
+    width: 100%;
+   }
+   #eventImage{
+    height: 150px;
+  }
+  #serviceImage{
+    height: 300px;
+  }
+  #trackMainCon{
+    width: 100%;
+  }
+  #viewEventCon{
+    width: 100%;
+  }
+  .event-image{
+    height: 250px;
+  }
+  #pastorName{
+    font-size: 12px;
+  }
+  #pastorPos{
+    font-size: 10px;
+  }
+  .event-title, .event-place, .event-date, .event-time{
+    font-family: 'Anton', sans-serif;
+  }
+  .event-title{
+  font-size: 2rem;
+  }
+  .event-place{
+  font-size: 1rem;
+  }
+  .event-date{
+  font-size: 0.8rem;
+  }
+  #footerCon{
+    width: 90%;
+  }
+  .confirm-container{
+    width: 95%;
+  }
+  #forgotPassCon{
+    width: 100%;
+  }
+  #reqCon{
+    width: 100%;
+  }
+}
