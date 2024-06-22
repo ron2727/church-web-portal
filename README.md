@@ -6,6 +6,7 @@ Features of the system
 
 Online booking
  - booking for availing the services of church
+ - you cant book to a date that has been fully booked
  - tracking of the status of booked service
  - get notify thru email about the status of booked service
 
